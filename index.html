@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HealthData</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/d3Style.css">
+  <!-- <script src='Chart.min.js'></script> -->
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>Health Indices</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div class="article">
+          <h2><h2>Health Risks as Functions of Age and Income</h2>
+          <p>Age as index of Health:
+            Obesity: Obesity has high incidence among persons age 20 to 40 years; incidence is lower among age <20 years and >40 years.
+            Smoking: The median age of smokers’ range between 13 and 28 years across US states. Smokers tend to be younger in UT and CA, older in WY and KY.
+            Possession of Health Insurance: Lower % of persons with median age 32 to 45 years lack health insurance in MA and VT; median age is 21% in GA and 25% in TX.</p>
+
+            <p>Poverty Vs Health Insurance:
+              Poverty index appears to be roughly correlated with possession of health insurance: lower poverty rate and lowest proportion of
+              persons having health insurance are observable in MA; highest in MS. 25% of persons in about 18% poverty bracket lack health insurance in TX.</p>
+            </p>
+
+          <p>Household Income:
+            Lower % of persons with household income in the range 40,000 to 75,000 p.a. lack health insurance in MA, VT and MN respectively. Up to 20%
+            lack health insurance in LA, MS, GA. The % is highest in TX.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <Footer></Footer> -->
+  <div id="footer">
+    <p>Adebayo, 2021</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script type="text/javascript" src="./assets/js/app.js"></script>
+  <script type="text/javascript" src="./assets/js/functions.js"></script>
+
+
+</body>
+
+</html>
